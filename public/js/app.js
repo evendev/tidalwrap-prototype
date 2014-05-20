@@ -1,22 +1,38 @@
 (function($) {
 
+
+  /**
+   * Project namespace
+   */
   var App = {};
 
+  /**
+   * Kickoff the scripts
+   */
   App.init = function() {
     new WOW().init();
     App.initSmoothScrollNav();
   };
 
-  
+  /**
+   * Sets up smooth scrolling main nav
+   */
   App.initSmoothScrollNav = function() {
-    var $nav = $('.navbar-nav');
-    $nav.smoothScroll();
+    $('.navbar-nav a').smoothScroll({
+      offset: -50
+    });
   };
 
 
-  // Runtime
+
+  /**
+   * Runtime, let's roll
+   */
   $(document).ready(function() {
+
     App.init();
+
   });
+
 
 })(jQuery);

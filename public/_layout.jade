@@ -6,8 +6,8 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     link(rel='stylesheet', href='css/animate.css')
     link(rel='stylesheet', href='css/app.css')
-  body
-    nav.site.navbar.navbar-inverse.navbar-fixed-top
+  body#body
+    nav#nav.site.navbar.navbar-inverse.navbar-fixed-top
       .container-fluid
         .navbar-header
           button.navbar-toggle(type='button', data-toggle='collapse', data-target='.nav-main')
@@ -19,7 +19,7 @@ html
         .collapse.navbar-collapse.nav-main
           .navbar-right
             ul.nav.navbar-nav
-              li: a(href='#intro') Introduction
+              li: a(href='#body') Introduction
               li: a(href='#subsystem') Sub System
               li: a(href='#advantages') Advantages
               li: a(href='#applications') Applications
