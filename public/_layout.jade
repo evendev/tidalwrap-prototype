@@ -1,0 +1,38 @@
+!!!5
+html
+  head
+    meta(charset='utf-8')
+    title= site.name
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', href='css/animate.css')
+    link(rel='stylesheet', href='css/app.css')
+  body
+    nav.site.navbar.navbar-inverse.navbar-fixed-top
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.nav-main')
+            span.sr-only Toggle Navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='/')= site.name
+        .collapse.navbar-collapse.nav-main
+          .navbar-right
+            ul.nav.navbar-nav
+              li: a(href='#intro') Introduction
+              li: a(href='#subsystem') Sub System
+              li: a(href='#benefits') Benefits
+              li: a(href='#applications') Applications
+              li: a(href='#about') About
+              li: a(href='#contact') Contact
+    main.site
+      != yield
+    footer.site
+      .container
+        p Site contents &copy; #{ new Date().getFullYear() } #{ site.name }
+
+
+    script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/wow.js')
+    script(src='js/app.js')

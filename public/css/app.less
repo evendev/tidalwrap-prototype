@@ -1,0 +1,101 @@
+@import "_less/bootstrap.less";
+
+/** Brand vars **/
+@black: #000;
+@white: #fff;
+
+// keymarine
+@key-yellow: #d6e04b;
+@key-orange: #d66123;
+@key-grey: #333;
+
+// pcs
+@pcs-blue: #06aeef;
+@pcs-blue-dark: darken(@pcs-blue, 15);
+@pcs-blue-darker: darken(@pcs-blue, 30);
+
+/** Bootstrap overrides **/
+// colors
+@brand-primary: @key-grey;
+
+// navbar
+@navbar-margin-bottom: 0;
+@navbar-border-radius: 0;
+
+
+/** Globals **/
+.text-center .img-responsive {
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  padding-top: 50px;
+}
+
+
+/** Section containers **/
+.pad-top {
+  padding-top: 3em;
+}
+.section-title {
+  font-size: 3em;
+  margin: 1em 0 2em;
+  text-transform: uppercase;
+}
+.section-padded {
+  padding: 4em 0;
+}
+.section-light {
+
+}
+.section-dark {
+  color: @white;
+  a, a:visited {
+    color: @white;
+  }
+}
+.section-theme-km {
+  background-color: @key-grey;
+  a, a:visited {
+    color: @key-yellow;
+  }
+}
+.section-theme-pcs {
+  background-color: @pcs-blue-dark;
+
+  .well {
+    background-color: @pcs-blue-darker;
+    border-color: transparent;
+  }
+}
+
+
+/** Jumbtron **/
+.jumbotron {
+  padding: 8em 0;
+  background: url(../img/stock-photo-22156148-huntington-beach-pier-in-southern-california.jpg) no-repeat right -200px;
+  background-size: cover;
+}
+.jumbotron-content {
+  background-color: #333;
+  background-color: fade(@black, 80);
+  color: @white !important;
+  padding: 0.5em;
+}
+
+/** Home page boxes/animations **/
+.intro-box {
+  margin-bottom: 2em;
+}
+.pcs-logo {
+  margin: 3em 0;
+}
+
+
+/** Footer **/
+footer.site {
+  background-color: @gray-lighter;
+  margin-top: 2em;
+  padding: 2em 0;
+  text-align: center;
+}
