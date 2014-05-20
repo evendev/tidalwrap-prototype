@@ -31,6 +31,16 @@
 body {
   padding-top: 50px;
 }
+.larger-font {
+  font-size: 1.4em;
+}
+.list-centered {
+  list-style: none;
+  li {
+    padding: 0.75em 0;
+    border-bottom: solid 1px @gray-lighter;
+  }
+}
 
 
 /** Section containers **/
@@ -53,6 +63,7 @@ body {
   a, a:visited {
     color: @white;
   }
+  hr { border-color: @gray-darker; }
 }
 .section-theme-km {
   background-color: @key-grey;
@@ -95,7 +106,6 @@ body {
 /** Footer **/
 footer.site {
   background-color: @gray-lighter;
-  margin-top: 2em;
   padding: 2em 0;
   text-align: center;
 }
