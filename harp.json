@@ -2,11 +2,16 @@
   "globals": {
     "site": {
       "name": "Tidal Wrap",
-      "tagline": "Corrosion Protection for Marine Steel Pipes",
-      "phone": "",
-      "phoneUrl": "",
-      "fax": "",
-      "email": ""
+      "tagline": "Corrosion Protection for Marine Steel Pipes"
+    },
+    "company": {
+      "name": "Key Marine Direct Sales Ltd.",
+      "url": "http://www.keymarine.ca/",
+      "phone": "+1.604.281.1102",
+      "phoneUrl": "+16042811102",
+      "fax": "+1.778.279.7771",
+      "faxUrl": "+17782797771",
+      "email": "direct@keymarine.ca"
     }
   }
 }

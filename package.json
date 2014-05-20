@@ -1,0 +1,9 @@
+{
+  "name": "tidalwrap-prototype",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-util": "^2.2.14",
+    "rsyncwrapper": "^0.3.0"
+  }
+}
