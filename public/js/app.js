@@ -15,12 +15,16 @@
   };
 
   /**
-   * Sets up smooth scrolling main nav
+   * Sets up smooth scrolling main nav and BS's scrollspy
    */
   App.initSmoothScrollNav = function() {
     $('.navbar-nav a').smoothScroll({
       offset: -50
     });
+    $('body').scrollspy({
+      target: '.navbar',
+      offset: 50
+    })
   };
 
 

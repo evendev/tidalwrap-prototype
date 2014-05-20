@@ -1,18 +1,25 @@
 @import "_less/bootstrap.less";
 
 /** Brand vars **/
-@black: #000;
-@white: #fff;
 
-// keymarine
-@key-yellow: #d6e04b;
-@key-orange: #d66123;
-@key-grey: #333;
+// colors
+  @black: #000;
+  @white: #fff;
+  // keymarine
+  @key-yellow: #d6e04b;
+  @key-orange: #d66123;
+  @key-grey: #333;
+  @key-grey-dark: #222;
+  // pcs
+  @pcs-blue: #06aeef;
+  @pcs-blue-dark: darken(@pcs-blue, 15);
+  @pcs-blue-darker: darken(@pcs-blue, 30);
 
-// pcs
-@pcs-blue: #06aeef;
-@pcs-blue-dark: darken(@pcs-blue, 15);
-@pcs-blue-darker: darken(@pcs-blue, 30);
+// fonts
+  @font-family-sans-serif: "Open Sans", sans-serif;
+  @headings-font-family: "Oswald";
+  @headings-font-weight: 700;
+
 
 /** Bootstrap overrides **/
 // colors
@@ -31,8 +38,11 @@
 body {
   padding-top: 50px;
 }
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
 .larger-font {
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .list-centered {
   list-style: none;
@@ -64,16 +74,22 @@ body {
     color: @white;
   }
   hr { border-color: @gray-darker; }
+  .list-centered li {
+    border-color: @gray-darker;
+  }
 }
 .section-theme-km {
   background-color: @key-grey;
   a, a:visited {
     color: @key-yellow;
   }
+  .well {
+    background-color: @key-grey-dark;
+    border-color: transparent;
+  }
 }
 .section-theme-pcs {
   background-color: @pcs-blue-dark;
-
   .well {
     background-color: @pcs-blue-darker;
     border-color: transparent;
@@ -116,6 +132,9 @@ footer.site {
 
 @media (min-width: @screen-md-min) {
   #about .well {
-    min-height: 200px;
+    min-height: 210px;
+  }
+  #applications .well {
+    min-height: 8em;
   }
 }
