@@ -4,37 +4,84 @@ html
     meta(charset='utf-8')
     title= site.name
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:700')
-    link(rel='stylesheet', href='css/animate.css')
     link(rel='stylesheet', href='css/app.css')
+    link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic')
+    script(src='js/modernizr.js')
+    //if lt IE 9
+      script(src='//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
+      script(src='//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
   body
-    nav.site.navbar.navbar-inverse.navbar-fixed-top
-      .container-fluid
-        .navbar-header
-          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.nav-main')
-            span.sr-only Toggle Navigation
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
-          a.navbar-brand(href='/')= site.name
-        .collapse.navbar-collapse.nav-main
-          .navbar-right
-            ul.nav.navbar-nav
-              li: a(href='#main') Introduction
-              li: a(href='#subsystem') Sub System
-              li: a(href='#advantages') Advantages
-              li: a(href='#applications') Applications
-              li: a(href='#about') About
-              li: a(href='#contact') Contact
-    main.site#main
-      != yield
-    footer.site
+
+    nav.site.site-nav
+      .navbar.navbar-inverse.navbar-fixed-top
+        .container-fluid
+          .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+              span.sr-only Menu
+              i.icon-bar
+              i.icon-bar
+              i.icon-bar
+          .collapse.navbar-collapse
+            .navbar-left
+              ul.nav.navbar-nav
+                li: a(href='index.html') The Product
+                li: a(href='#sub-system') Sub System
+                li: a(href='#about') About
+                li: a(href='#contact') Contact
+            .navbar-right
+              ul.nav.navbar-nav
+                li
+                  a.external(href='#{ company.url }') Key Marine
+                    |&nbsp;
+                    i.glyphicon.glyphicon-new-window
+
+    header.site.site-header
       .container
-        p Site contents &copy; #{ new Date().getFullYear() } #{ site.name }
+        .row
+          .col-sm-4.header-logo
+            a(href='/')
+              img(src='img/logo.png', alt='#{ site.name }')
+          .col-sm-8
+            p.header-tagline= site.tagline
+
+    .site-wrap
+      .site.site-main
+        != yield
+
+    .site-map
+      #map
+
+    footer.site.site-footer
+      .container
+        p.text-center &copy; #{ new Date().getFullYear() }
+          | &nbsp;
+          a(href='#{ company.url }') #{ company.name }
+        hr
+        .row
+          .col-sm-6.footer-main
+            p
+              strong: a(href='#{ company.url }') #{ company.name }
+            address#company-address
+              |  #{ company.address }
+              br
+              |  #{ company.city }, #{ company.state } #{ company.zip }
+              br
+              |  #{ company.country }
+          .col-sm-6.footer-extra
+            ul.list-unstyled
+              li: a(href='#') The Product
+              li: a(href='#') Sub System
+              li: a(href='#') About
+              li: a(href='#') Contact
 
 
+    script.
+      window._tidalWrapLatitude = #{ company.latitude };
+      window._tidalWrapLongitude = #{ company.longitude };
     script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
     script(src='js/bootstrap.min.js')
-    script(src='js/jquery.smooth-scroll.js')
-    script(src='js/wow.js')
+    //- script(src='js/jquery.smooth-scroll.js')
+    script(src='//maps.google.com/maps/api/js?sensor=true')
+    script(src='js/gmaps.js')
+    //- script(src='js/wow.js')
     script(src='js/app.js')

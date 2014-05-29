@@ -11,7 +11,15 @@
       "phoneUrl": "+16042811102",
       "fax": "+1.778.279.7771",
       "faxUrl": "+17782797771",
-      "email": "direct@keymarine.ca"
+      "email": "direct@keymarine.ca",
+      "address": "468 Wellington Street West #201",
+      "city": "Toronto",
+      "country": "Canada",
+      "state": "ON",
+      "zip": "M5V1E3",
+      "googleMapShortUrl": "https://goo.gl/maps/qmPPl",
+      "latitude": "43.6435613",
+      "longitude": "-79.39785180000001"
     }
   }
 }

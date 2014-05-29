@@ -7,11 +7,45 @@
   var App = {};
 
   /**
-   * Kickoff the scripts
+   * Load css/prototype.css if body.prototype
    */
-  App.init = function() {
-    new WOW().init();
-    App.initSmoothScrollNav();
+  App.loadExtras = function() {
+    if ($('body').hasClass('prototype')) {
+      $('head')
+        .append('<link rel="stylesheet" href="css/prototype.css">');
+    }
+  };
+
+  /**
+   * Initialize the map
+   */
+  App.initMap = function() {
+    $('#map').css({width:"100%", height:"280px"});
+    var latLong = {
+      lat: window._tidalWrapLatitude,
+      lng: window._tidalWrapLongitude,
+    };
+
+    var map = new GMaps({
+      div: '#map',
+      lat: latLong.lat,
+      lng: latLong.lng,
+      size: ['100%', 280],
+      zoom: 10,
+      scrollwheel: false,
+      zoomControl: true,
+      panControl: false,
+      scaleControl: false,
+      mapTypeControl: true,
+      streetViewControl: false,
+      scaleControl: false
+    });
+
+    map.addMarker({
+      lat: latLong.lat,
+      lng: latLong.lng,
+      title: 'Key Marine Direct Sales, Ltd.'
+    });
   };
 
   /**
@@ -28,6 +62,17 @@
   };
 
 
+
+
+  /**
+   * Kickoff the scripts
+   */
+  App.init = function() {
+    // new WOW().init();
+    App.loadExtras();
+    App.initMap();
+    // App.initSmoothScrollNav();
+  };
 
   /**
    * Runtime, let's roll

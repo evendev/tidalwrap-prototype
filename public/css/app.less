@@ -1,140 +1,114 @@
 @import "_less/bootstrap.less";
-
-/** Brand vars **/
-
-// colors
-  @black: #000;
-  @white: #fff;
-  // keymarine
-  @key-yellow: #d6e04b;
-  @key-orange: #d66123;
-  @key-grey: #333;
-  @key-grey-dark: #222;
-  // pcs
-  @pcs-blue: #06aeef;
-  @pcs-blue-dark: darken(@pcs-blue, 15);
-  @pcs-blue-darker: darken(@pcs-blue, 30);
-
-// fonts
-  @font-family-sans-serif: "Open Sans", sans-serif;
-  @headings-font-family: "Oswald";
-  @headings-font-weight: 700;
+@import "_settings.less";
 
 
-/** Bootstrap overrides **/
-// colors
-@brand-primary: @key-grey;
-
-// navbar
-@navbar-margin-bottom: 0;
-@navbar-border-radius: 0;
+.hefty-top-border {
+  border-top: solid 10px @pcs-blue-darkest;
+}
 
 
-/** Globals **/
+/** Utility **/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 .text-center .img-responsive {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/** Globals **/
 body {
+  background: #ddd;
   padding-top: 50px;
 }
-h1, h2, h3, h4, h5, h6 {
-  text-transform: uppercase;
-}
-.larger-font {
-  font-size: 1.2em;
-}
-.list-centered {
-  list-style: none;
-  li {
-    padding: 0.75em 0;
-    border-bottom: solid 1px @gray-lighter;
+
+@media (min-width: @screen-sm-min) {
+  .container {
+    max-width: 900px;
   }
 }
 
 
-/** Section containers **/
-.pad-top {
-  padding-top: 3em;
+/** Header **/
+.site-header {
+  background: @pcs-blue-darker;
+  background-image: linear-gradient(0deg, @pcs-blue-dark, darken(@pcs-blue-dark, 6%));
+  color: white;
+  padding: 1em 0;
+  text-align: center;
 }
-.section-title {
-  font-size: 3em;
-  margin: 1em 0 2em;
-  text-transform: uppercase;
+.header-tagline {
+  text-align: center;
+  font-size: @font-size-large;
+  padding: 1em 0 0;
+  text-shadow: 1px 1px 2px @black;
 }
-.section-padded {
-  padding: 4em 0;
-}
-.section-light {
-
-}
-.section-dark {
-  color: @white;
-  a, a:visited {
-    color: @white;
+@media (min-width: @screen-sm-min) {
+  .site-header {
+    background: @pcs-blue-darker url(../img/head-3-1024.jpg) no-repeat left top;
+    padding: 2em 0;
   }
-  hr { border-color: @gray-darker; }
-  .list-centered li {
-    border-color: @gray-darker;
-  }
-}
-.section-theme-km {
-  background-color: @key-grey;
-  a, a:visited {
-    color: @key-yellow;
-  }
-  .well {
-    background-color: @key-grey-dark;
-    border-color: transparent;
+  .header-tagline {
+    text-align: right;
+    padding: 2em 0 0;
+    font-size: 1.6em;
   }
 }
-.section-theme-pcs {
-  background-color: @pcs-blue-dark;
-  .well {
-    background-color: @pcs-blue-darker;
-    border-color: transparent;
+@media (min-width: @screen-md-min) {
+  .site-header {
+    background-image: url(../img/head-3-1818.jpg);
+    padding: 3em 0;
   }
 }
 
+/** Nav **/
+.site-nav {
+  &.navbar-inverse {
+    background-color: black;
+    background-image: linear-gradient(0deg, black, #333 97%, black);
+  }
+}
+@media (max-width: @screen-sm-min) {
+  .site-nav .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 
-/** Jumbtron **/
-.jumbotron {
-  padding: 8em 0;
-  background: url(../img/stock-photo-22156148-huntington-beach-pier-in-southern-california.jpg) no-repeat right -200px;
-  background-size: cover;
-}
-.jumbotron-content {
-  background-color: #333;
-  background-color: fade(@black, 80);
-  color: @white !important;
-  padding: 0.5em;
-}
 
-/** Home page boxes/animations **/
-.intro-box {
-  margin-bottom: 2em;
-}
-.pcs-logo {
-  margin: 3em 0;
+/** Map **/
+.site-map {
+  .hefty-top-border();
+  background-color: @pcs-blue-darkest;
 }
 
 
 /** Footer **/
-footer.site {
-  background-color: @gray-lighter;
-  padding: 2em 0;
-  text-align: center;
+.site-footer {
+  .hefty-top-border();
+  background: #ddd;
+  padding: 3em inherit;
+
+  hr { border-color: @gray-light; }
+}
+@media (min-width: @screen-sm-min) {
+  .footer-extra {
+    text-align: right;
+  }
+}
+
+
+/** Site Wrapper **/
+.site-wrap {
+  background-color: @white;
+  background: @white linear-gradient(0deg, @white 90%, #ccc);
+  padding-bottom: 2em;
 }
 
 
 
-/** Media Query Adjustments **/
-
-@media (min-width: @screen-md-min) {
-  #about .well {
-    min-height: 210px;
-  }
-  #applications .well {
-    min-height: 8em;
-  }
+/** Main **/
+.main-aside {
+  padding-top: 2em;
 }
