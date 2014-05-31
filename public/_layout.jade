@@ -12,37 +12,9 @@ html
       script(src='//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
   body
 
-    nav.site.site-nav
-      .navbar.navbar-inverse.navbar-fixed-top
-        .container-fluid
-          .navbar-header
-            button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
-              span.sr-only Menu
-              i.icon-bar
-              i.icon-bar
-              i.icon-bar
-          .collapse.navbar-collapse
-            .navbar-left
-              ul.nav.navbar-nav
-                li: a(href='index.html') The Product
-                li: a(href='#sub-system') Sub System
-                li: a(href='#about') About
-                li: a(href='#contact') Contact
-            .navbar-right
-              ul.nav.navbar-nav
-                li
-                  a.external(href='#{ company.url }') Key Marine
-                    |&nbsp;
-                    i.glyphicon.glyphicon-new-window
+    != partial('_header')
 
-    header.site.site-header
-      .container
-        .row
-          .col-sm-4.header-logo
-            a(href='/')
-              img(src='img/logo.png', alt='#{ site.name }')
-          .col-sm-8
-            p.header-tagline= site.tagline
+    != partial('_nav')
 
     .site-wrap
       .site.site-main
@@ -51,29 +23,7 @@ html
     .site-map
       #map
 
-    footer.site.site-footer
-      .container
-        p.text-center &copy; #{ new Date().getFullYear() }
-          | &nbsp;
-          a(href='#{ company.url }') #{ company.name }
-        hr
-        .row
-          .col-sm-6.footer-main
-            p
-              strong: a(href='#{ company.url }') #{ company.name }
-            address#company-address
-              |  #{ company.address }
-              br
-              |  #{ company.city }, #{ company.state } #{ company.zip }
-              br
-              |  #{ company.country }
-          .col-sm-6.footer-extra
-            ul.list-unstyled
-              li: a(href='#') The Product
-              li: a(href='#') Sub System
-              li: a(href='#') About
-              li: a(href='#') Contact
-
+    != partial('_footer')
 
     script.
       window._tidalWrapLatitude = #{ company.latitude };

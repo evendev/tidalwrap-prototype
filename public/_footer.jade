@@ -1,0 +1,22 @@
+footer.site.site-footer
+  .container
+    p.text-center &copy; #{ new Date().getFullYear() }
+      | &nbsp;
+      a(href='#{ company.url }') #{ company.name }
+    hr
+    .row
+      .col-sm-6.footer-main
+        p
+          strong: a(href='#{ company.url }') #{ company.name }
+        address#company-address
+          |  #{ company.address }
+          br
+          |  #{ company.city }, #{ company.state } #{ company.zip }
+          br
+          |  #{ company.country }
+      .col-sm-6.footer-extra
+        ul.list-unstyled
+          li: a(href='#') The Product
+          li: a(href='#') Sub System
+          li: a(href='#') About
+          li: a(href='#') Contact

@@ -1,0 +1,21 @@
+nav.site.site-nav
+  .navbar.navbar-inverse.navbar-fixed-top
+    .container-fluid
+      .navbar-header
+        button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+          span.sr-only Menu
+          i.icon-bar
+          i.icon-bar
+          i.icon-bar
+      .collapse.navbar-collapse
+        .navbar-left
+          ul.nav.navbar-nav
+            li: a(href='index.html') The Product
+            li: a(href='#sub-system') Sub System
+            li: a(href='#about') About
+            li: a(href='#contact') Contact
+        //- .navbar-right
+          ul.nav.navbar-nav
+            li
+              a(href='#en'): i.sr-only.flag.flag-gb English
+              a(href='#es'): i.sr-only.flag.flag-es Español

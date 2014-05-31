@@ -1,9 +1,13 @@
 @import "_less/bootstrap.less";
 @import "_settings.less";
+@import "_flags.less";
 
 
 .hefty-top-border {
-  border-top: solid 10px @pcs-blue-darkest;
+  border-top: solid 20px @pcs-blue-darkest;
+}
+.hefty-bottom-border {
+  border-bottom: solid 20px @pcs-blue-darkest;
 }
 
 
@@ -67,6 +71,9 @@ body {
   &.navbar-inverse {
     background-color: black;
     background-image: linear-gradient(0deg, black, #333 97%, black);
+  }
+  .flag {
+    
   }
 }
 @media (max-width: @screen-sm-min) {
