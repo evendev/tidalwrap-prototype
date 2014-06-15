@@ -4,13 +4,7 @@
   h1.text-center Tidal Wrap Provides
     br
     != site.tagline
-  //- .row
-    .col-sm-6
-      h2 Some small heading
-      p
-        | Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.
-    .col-sm-6
-      img.img-responsive(src='img/tidal-wrap.jpg', alt)
+  hr.hr-dark
 
 section#the-problem
   .container-fluid
@@ -19,7 +13,7 @@ section#the-problem
         .page-header
           h2.text-center The Problem
         p.lead.text-center Unprotected marine steel pilings erode prematurely, resulting in corrosion of pilings and a weaker structure.
-  .container-fluid
+  .container-fluid.wow.fadeInLeftBig
     .row
       .col-xs-3
         img.thumbnail.img-responsive(src='img/problem-1.jpg', alt)
@@ -29,29 +23,71 @@ section#the-problem
         img.thumbnail.img-responsive(src='img/problem-3.jpg', alt)
       .col-xs-3
         img.thumbnail.img-responsive(src='img/problem-4.jpg', alt)
-  .container-fluid
+  .container-fluid.wow.fadeInRightBig
     .row
       .col-sm-12
         .page-header
           h2.text-center The Solution
         p.lead.text-center Tidal Wrap protects pilings, improving the stability and longevity of the structure for years to come.
   .container-fluid
-    .row
-      .col-sm-6
+    .row.wow.fadeInDown
+      .col-sm-4.col-sm-offset-2
         img.thumbnail.img-responsive(src='img/tidal-wrap.jpg', alt)
-      .col-sm-6
+      .col-sm-4
         img.thumbnail.img-responsive(src='img/liner.jpg', alt)
 
-section#intro.section-padded
+section#overview.section-padded
   .container-fluid
     .page-header.text-center
-      h2 How Tidal Wrap Works
+      h2 Overview of Tidal Wrap
     .row
       .col-sm-6
         each item in blocks.intro
+          .wow.bounceInLeft
+            h3= item.title
+            p= item.body
+      .col-sm-6
+        p.wow.bounceInLeft: img.img-responsive(src='img/piling-en.png', alt)
+
+section#system.section-padded.section-key
+  .container-fluid
+    .page-header.text-center
+      h2 Subsystem &amp; Products
+    each item in blocks.system
+      .row.subsystem-item.wow.fadeInDown
+        .col-sm-4.col-sm-offset-2
+          p: img.img-responsive.thumbnail(src='img/#{ item.image }', alt='#{ item.title }')
+        .col-sm-4
           h3= item.title
           p= item.body
-      .col-sm-6
-        p: img.img-responsive(src='img/piling-en.png', alt)
 
-!= partial('_about-pcs')
+section#advantages.section-padded
+  .container-fluid
+    .row.wow.fadeInDown
+      .col-sm-12.text-center
+        .page-header
+          h2= blocks.characteristics.title
+    .row.text-center
+      .col-sm-8.col-sm-offset-2
+        each p in blocks.characteristics.body
+          p.lead.wow.fadeInDown= p
+    .row.wow.fadeInRightBig
+      .col-sm-6.col-sm-offset-3.text-center
+        ul.list-group
+          each item in blocks.characteristics.items
+            li.list-group-item= item
+
+section#about-pcs.section-pcs.section-padded
+  .container-fluid
+    .row
+      .col-sm-12.text-center
+        p.wow.fadeIn: img.pcs-logo(src='img/pcs-logo.png', alt='Petro Coating Systems, Ltd')
+        h2= partners.pcs.fullName
+        p: a.external(href='#{ partners.pcs.url }', target='_blank')= partners.pcs.domain
+    hr
+    .row
+      each item in blocks.pcs
+        .col-sm-6.wow.fadeInDown
+          h3= item.title
+          br
+          p= item.body

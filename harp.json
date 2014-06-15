@@ -46,6 +46,42 @@
         "title": "Various Configurations",
         "body": "The system accommodates cylindrical piles and H configurations and support members, reinforcement, supports and other uneven surfaces."
       }],
+      "system": [{
+        "title": "PCS Primer",
+        "body": "Petrolatum-based primer for use on metal surfaces prior to wrapping with Anti corrosion Petro Tape.",
+        "image": "primer.png"
+      }, {
+        "title": "PCS Mastic",
+        "body": "Petrolatum Mastic is used to fill cavities based on uneven surfaces before wrapping PCS Anti corrosion tape.",
+        "image": "mastic.png"
+      }, {
+        "title": "PCS Liner 6000",
+        "body": "The PC® 6000HD series consists of a proprietary polymer polyolefin, fully protected against UV degradation and oxidation with technically advanced stabilization package.",
+        "image": "liner.jpg"
+      }, {
+        "title": "Petro Tape",
+        "body": "Synthetic adhesive fabric impregnated and coated with a material based on waxes and oils, covered with vaseline-based compounds and inert fibers.",
+        "image": "petrotape.png"
+        }],
+      "characteristics": {
+        "title": "Characteristics & Advantages",
+        "body": [
+          "Since its first introduction in 1929 petrolatum tapes have established an enviable record of performance and unparalleled asset protection in a number of environments.",
+          "Mechanical protection also covers Liner 6000 PCL have stood the test of time in atmospheric environments and aggressive chemicals (30 years +)."
+        ],
+        "items": [
+          "Minimum surface preparation required",
+          "Can be applied under water",
+          "Tested by more than 75-year history of corrosion protection",
+          "Resistance to water, salts, alkalis and acids",
+          "Application for new installations as corroded",
+          "Mechanical covers one piece",
+          "High impact shock resistance and tides.",
+          "High capacity Ultraviolet",
+          "Environmentally responsible and safe to use",
+          "Maintenance free for long"
+        ]
+      },
       "pcs": [{
         "title": "Prevents Corrosion",
         "body": "PCS products are designed to stop and prevent corrosion in pipes, valves, piles, fittings and flanges in the most extreme environments imaginable."

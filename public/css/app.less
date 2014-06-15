@@ -27,6 +27,11 @@
 }
 
 
+/** Misc **/
+.hr-dark {
+  border-color: @key-grey;
+}
+
 /** Globals **/
 body {
   background: #ddd;
@@ -93,18 +98,16 @@ body {
 
 /** Map **/
 .site-map {
-  .hefty-top-border();
   background-color: @pcs-blue-darkest;
 }
 
 
 /** Footer **/
 .site-footer {
-  .hefty-top-border();
-  background: #ddd;
-  padding: 3em inherit;
-
   hr { border-color: @gray-light; }
+}
+.logo-km {
+  margin-bottom: 1em;
 }
 @media (min-width: @screen-sm-min) {
   .footer-extra {
@@ -117,7 +120,6 @@ body {
 .site-wrap {
   background-color: @white;
   background: @white linear-gradient(0deg, @white 90%, #ccc);
-  padding-bottom: 2em;
 }
 
 
@@ -133,6 +135,15 @@ body {
   padding: 2em 0;
 }
 
+// KeyM section
+.section-key {
+  background: @key-grey;
+  color: @white;
+  a { color: @key-orange-light; }
+  hr { border-color: @key-grey-dark; }
+  .page-header { border-color: @gray-light; }
+}
+
 // PCS section
 .section-pcs {
   background: @pcs-blue-dark;
@@ -140,4 +151,7 @@ body {
   a { color: @white; text-decoration: underline; }
   a:hover, a:active, a:focus { text-decoration: none; }
   hr { border-color: @pcs-blue-darker; }
+}
+#about-pcs {
+  margin-bottom: 0;
 }

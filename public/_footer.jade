@@ -1,8 +1,9 @@
-footer.site.site-footer
+footer.site.site-footer.section-key.section-padded
   .container
-    p.text-center &copy; #{ new Date().getFullYear() }
-      | &nbsp;
-      a(href='#{ company.url }') #{ company.name }
+    .row
+      .col-sm-12.text-center
+        div.logo-km
+          img.img-responsive(src='img/logo-keymarine.png', alt='Key Marine Direct Sales, Ltd')
     hr
     .row
       .col-sm-6.footer-main
@@ -24,3 +25,9 @@ footer.site.site-footer
           li: a(href='#') Sub System
           li: a(href='#') About
           li: a(href='#') Contact
+    hr
+    .row
+      .col-sm-12.text-center
+        p.copyright Site contents &copy; #{ new Date().getFullYear() }
+          | &nbsp;
+          a(href='#{ company.url }') #{ company.name }
