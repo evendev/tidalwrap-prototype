@@ -58,6 +58,7 @@ body {
   .site-header {
     background: @pcs-blue-darker url(../img/head-3-1024.jpg) no-repeat left top;
     padding: 2em 0;
+    text-align: left;
   }
   .header-tagline {
     text-align: right;
@@ -124,4 +125,19 @@ body {
 /** Main **/
 .main-aside {
   padding-top: 2em;
+}
+
+
+/** Section Classes **/
+.section-padded {
+  padding: 2em 0;
+}
+
+// PCS section
+.section-pcs {
+  background: @pcs-blue-dark;
+  color: @white;
+  a { color: @white; text-decoration: underline; }
+  a:hover, a:active, a:focus { text-decoration: none; }
+  hr { border-color: @pcs-blue-darker; }
 }

@@ -1,8 +1,9 @@
-.container
-  .page-header
-    h1.text-center Tidal Wrap Provides corrosion
-      br
-      != site.tagline
+.container-fluid
+  //- .page-header
+  br
+  h1.text-center Tidal Wrap Provides
+    br
+    != site.tagline
   //- .row
     .col-sm-6
       h2 Some small heading
@@ -12,25 +13,45 @@
       img.img-responsive(src='img/tidal-wrap.jpg', alt)
 
 section#the-problem
-  .container
-    .row
-      .col-sm-8.col-sm-offset-2
-        .page-header
-          h2.text-center The Problem
-        p.lead.text-center Unprotected pilings erode prematurely, resulting in corrosion of pilings and a weaker structure.
   .container-fluid
     .row
-      .col-xs-6
-        img.thumbnail.img-responsive(src='img/problem-1.jpg', alt)
-      .col-xs-6
-        img.thumbnail.img-responsive(src='img/problem-2.jpg', alt)
-      .col-xs-6
-        img.thumbnail.img-responsive(src='img/problem-3.jpg', alt)
-      .col-xs-6
-        img.thumbnail.img-responsive(src='img/problem-4.jpg', alt)
-  .container
+      .col-sm-12
+        .page-header
+          h2.text-center The Problem
+        p.lead.text-center Unprotected marine steel pilings erode prematurely, resulting in corrosion of pilings and a weaker structure.
+  .container-fluid
     .row
-      .col-sm-8.col-sm-offset-2
+      .col-xs-3
+        img.thumbnail.img-responsive(src='img/problem-1.jpg', alt)
+      .col-xs-3
+        img.thumbnail.img-responsive(src='img/problem-2.jpg', alt)
+      .col-xs-3
+        img.thumbnail.img-responsive(src='img/problem-3.jpg', alt)
+      .col-xs-3
+        img.thumbnail.img-responsive(src='img/problem-4.jpg', alt)
+  .container-fluid
+    .row
+      .col-sm-12
         .page-header
           h2.text-center The Solution
-        p.lead.text-center Tidal Wrap protects pilings, improving the stability and longevity of the structure for many years to come.
+        p.lead.text-center Tidal Wrap protects pilings, improving the stability and longevity of the structure for years to come.
+  .container-fluid
+    .row
+      .col-sm-6
+        img.thumbnail.img-responsive(src='img/tidal-wrap.jpg', alt)
+      .col-sm-6
+        img.thumbnail.img-responsive(src='img/liner.jpg', alt)
+
+section#intro.section-padded
+  .container-fluid
+    .page-header.text-center
+      h2 How Tidal Wrap Works
+    .row
+      .col-sm-6
+        each item in blocks.intro
+          h3= item.title
+          p= item.body
+      .col-sm-6
+        p: img.img-responsive(src='img/piling-en.png', alt)
+
+!= partial('_about-pcs')

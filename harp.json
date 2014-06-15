@@ -20,6 +20,45 @@
       "googleMapShortUrl": "https://goo.gl/maps/qmPPl",
       "latitude": "43.6435613",
       "longitude": "-79.39785180000001"
+    },
+    "partners": {
+      "pcs": {
+        "name": "PCS",
+        "fullName": "Petro Coating Systems, Ltd",
+        "url": "http://www.petrocoatingsystems.com/",
+        "domain": "www.petrocoatingsystems.com"
+      }
+    },
+    "blocks": {
+      "intro": [{
+        "title": "Splash Zone Protection",
+        "body": "The PCS anticorrosive protection system provides splash zone protection for steel structures, concrete and wood."
+      }, {
+        "title": "Ideal for Marine Environments",
+        "body": "The PCS system is ideal for environments where conditions are too severe for paint systems, epoxies and other conventional forms of protection."
+      }, {
+        "title": "Stop Corrosion on Metal Surfaces",
+        "body": "The PCS system seals the oxygen and water and effectively stops corrosion on metal surfaces."
+      }, {
+        "title": "Prevents Further Corrosion",
+        "body": "The system also prevents loosening and corrosion of steel reinforcement in concrete piles. The PCS system encapsulates pier piles, riser tubes and pipes exposed in intertidal zones and splash."
+      }, {
+        "title": "Various Configurations",
+        "body": "The system accommodates cylindrical piles and H configurations and support members, reinforcement, supports and other uneven surfaces."
+      }],
+      "pcs": [{
+        "title": "Prevents Corrosion",
+        "body": "PCS products are designed to stop and prevent corrosion in pipes, valves, piles, fittings and flanges in the most extreme environments imaginable."
+      }, {
+        "title": "Various Applications",
+        "body": "PCS products are used successfully in a variety of applications in oil & gas, pulp & paper, municipal and wastewater industries and routine building maintenance."
+      }, {
+        "title": "A Leading Manufacturer",
+        "body": "PCS is one of the leading manufacturers of anticorrosion tape systems petrolatum, exporting to many countries throughout the world."
+      }, {
+        "title": "North American",
+        "body": "Located in Toronto, Canada PCS is one of the most efficient in their field and have the latest manufacturing equipment."
+      }]
     }
   }
 }
