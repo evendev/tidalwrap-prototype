@@ -82,6 +82,38 @@
           "Maintenance free for a long time"
         ]
       },
+      "installation": {
+        "title": "Installation",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
+        "hydro": {
+          "imagesPath": "installation/hydro",
+          "images": [{
+            "caption": "Initial State of Pilings",
+            "image": "1-initial.jpg"
+          }, {
+            "caption": "Target the Splash Zone",
+            "image": "2-install-hydroblast-zone.jpg"
+          }, {
+            "caption": "Hydroblast the Splash Zone",
+            "image": "5-hydroblast-splash-zone.jpg"
+          }, {
+            "caption": "Hydroblast the Upper Zone",
+            "image": "6-hydroblast-upper.jpg"
+          }, {
+            "caption": "Install Primer",
+            "image": "install-primer.jpg"
+          }, {
+            "caption": "Install Tape",
+            "image": "install-tape-1.jpg"
+          }, {
+            "caption": "Install Tape",
+            "image": "install-tape-2.jpg"
+          }, {
+            "caption": "Installed underwater",
+            "image": "install-tape-3.jpg"
+          }]
+        }
+      },
       "pcs": [{
         "title": "Prevents Corrosion",
         "body": "PCS products are designed to stop and prevent corrosion in pipes, valves, piles, fittings and flanges in the most extreme environments imaginable."

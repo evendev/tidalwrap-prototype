@@ -91,16 +91,19 @@ section#advantages.section-padded
             li.list-group-item= item
 
 
-//section#installation.section-padded.section-key
+section#installation.section-padded.section-key
   .container-fluid
-    .page-header
-      h2 Installation
+    .page-header.text-center
+      h2= blocks.installation.title
     .row
-      .col-sm-12
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+      .col-sm-12.text-center
+        p.lead= blocks.installation.body
     .row
-      //- each item in blocks.installation.images
-        // spit out images
+      each item in blocks.installation.hydro.images
+        .col-sm-3.wow.fadeInDown
+          .thumbnail
+            img.img-responsive(src='img/#{ blocks.installation.hydro.imagesPath }/#{ item.image }', alt='#{ item.caption }')
+            .caption= item.caption
 
 section#about-pcs.section-pcs.section-padded
   .container-fluid
@@ -116,3 +119,29 @@ section#about-pcs.section-pcs.section-padded
           h3= item.title
           br
           p= item.body
+
+section#contact.section-padded.section-key
+  .container
+    .page-header.text-center
+      h2 Contact Key Marine
+      p.lead.text-center TidalWrap is exclusively avaialble from Key Marine Direct Sales, Ltd.
+    .row
+      .col-sm-6.text-center
+        div.logo-km
+          img.img-responsive(src='img/logo-keymarine.png', alt='Key Marine Direct Sales, Ltd')
+      .col-sm-6
+        p
+          strong: a(href='#{ company.url }') #{ company.name }
+        address#company-address
+          |  #{ company.address }
+          br
+          |  #{ company.city }, #{ company.state } #{ company.zip } #{ company.country }
+          br
+          br
+          | Email:
+          | &nbsp;
+          a(href='mailto:#{ company.email }')= company.email
+          br
+          | Phone: #{ company.phone }
+          br
+          | Fax: #{ company.fax }

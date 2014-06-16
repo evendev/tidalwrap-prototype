@@ -10,12 +10,7 @@
 
 
 /** Mixins **/
-.hefty-top-border {
-  border-top: solid 20px @pcs-blue-darkest;
-}
-.hefty-bottom-border {
-  border-bottom: solid 20px @pcs-blue-darkest;
-}
+
 
 
 /** Utility **/
@@ -47,35 +42,53 @@ body {
 
 
 /** Header **/
-.site-header {
-  background: @pcs-blue-darker;
-  background-image: linear-gradient(0deg, @pcs-blue-dark, darken(@pcs-blue-dark, 6%));
-  color: white;
-  padding: 1em 0;
-  text-align: center;
+// .site-header {
+//   background: @pcs-blue-darker;
+//   background-image: linear-gradient(0deg, @pcs-blue-dark, darken(@pcs-blue-dark, 6%));
+//   color: white;
+//   padding: 1em 0;
+//   text-align: center;
+// }
+// .header-tagline {
+//   text-align: center;
+//   font-size: @font-size-large;
+//   padding: 1em 0 0;
+//   text-shadow: 1px 1px 2px @black;
+// }
+// @media (min-width: @screen-sm-min) {
+//   .site-header {
+//     background: @pcs-blue-darker url(../img/head-3-1024.jpg) no-repeat left top;
+//     padding: 2em 0;
+//     text-align: left;
+//   }
+//   .header-tagline {
+//     text-align: right;
+//     padding: 2em 0 0;
+//     font-size: 1.6em;
+//   }
+// }
+// @media (min-width: @screen-md-min) {
+//   .site-header {
+//     background-image: url(../img/head-3-1818.jpg);
+//     padding: 3em 0;
+//   }
+// }
+
+.site-header-alt-1 {
+  background: @pcs-blue-darker url(../img/header-xs.jpg) no-repeat center center;
+  background-size: cover;
+  height: 141px;
 }
-.header-tagline {
-  text-align: center;
-  font-size: @font-size-large;
-  padding: 1em 0 0;
-  text-shadow: 1px 1px 2px @black;
-}
-@media (min-width: @screen-sm-min) {
-  .site-header {
-    background: @pcs-blue-darker url(../img/head-3-1024.jpg) no-repeat left top;
-    padding: 2em 0;
-    text-align: left;
+@media (min-width: 768px) {
+  .site-header-alt-1 {
+    background: @pcs-blue-darker url(../img/header-sm.jpg) no-repeat center center;
+    height: 141px;
   }
-  .header-tagline {
-    text-align: right;
-    padding: 2em 0 0;
-    font-size: 1.6em;
-  }
 }
-@media (min-width: @screen-md-min) {
-  .site-header {
-    background-image: url(../img/head-3-1818.jpg);
-    padding: 3em 0;
+@media (min-width: 1024px) {
+  .site-header-alt-1 {
+    background-image: url(../img/header.jpg);
+    height: 220px;
   }
 }
 
@@ -142,8 +155,12 @@ body {
   color: @white;
   a { color: @key-orange-light; }
   hr { border-color: @key-grey-dark; }
-  .page-header { border-color: @gray-light; }
-  .thumbnail { background-color: @key-grey-dark; border-color: @black; }
+  .page-header { border-color: @key-grey-dark; }
+  .thumbnail {
+    background-color: @key-grey-dark;
+    border-color: @black;
+    .caption { color: @white; }
+  }
 }
 
 // PCS section
