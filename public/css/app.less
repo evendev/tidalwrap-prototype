@@ -74,23 +74,6 @@ body {
   }
 }
 
-// .site-header-alt-1 {
-//   background: @pcs-blue-darker url(../img/header-xs.jpg) no-repeat center center;
-//   background-size: cover;
-//   height: 141px;
-// }
-// @media (min-width: 768px) {
-//   .site-header-alt-1 {
-//     background: @pcs-blue-darker url(../img/header-sm.jpg) no-repeat center center;
-//     height: 141px;
-//   }
-// }
-// @media (min-width: 1024px) {
-//   .site-header-alt-1 {
-//     background-image: url(../img/header.jpg);
-//     height: 220px;
-//   }
-// }
 
 /** Nav **/
 .site-nav {
@@ -141,6 +124,11 @@ body {
 /** Main **/
 .main-aside {
   padding-top: 2em;
+}
+@media (max-width: @screen-xs-max) {
+  .solution-images {
+    img { margin: 1em auto; }
+  }
 }
 
 
