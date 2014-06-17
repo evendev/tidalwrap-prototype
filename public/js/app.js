@@ -56,12 +56,12 @@
    */
   App.initSmoothScrollNav = function() {
     $('.navbar-nav a').smoothScroll({
-      offset: -50
+      offset: -40
     });
     $('body').scrollspy({
       target: '.navbar',
       offset: 50
-    })
+    });
   };
 
 
@@ -74,7 +74,7 @@
     new WOW().init();
     App.loadExtras();
     App.initMap();
-    // App.initSmoothScrollNav();
+    App.initSmoothScrollNav();
   };
 
   /**
