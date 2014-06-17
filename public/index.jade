@@ -16,13 +16,15 @@ section#the-problem
   .container-fluid.wow.fadeInLeftBig
     .row
       .col-xs-3
-        img.thumbnail.img-responsive(src='img/problem-1.jpg', alt)
-      .col-xs-3
-        img.thumbnail.img-responsive(src='img/problem-3.jpg', alt)
+        img.thumbnail.img-responsive(src='img/problem-6.jpg', alt)
       .col-xs-3
         img.thumbnail.img-responsive(src='img/problem-5.jpg', alt)
       .col-xs-3
-        img.thumbnail.img-responsive(src='img/problem-6.jpg', alt)
+        img.thumbnail.img-responsive(src='img/problem-1.jpg', alt)
+      .col-xs-3
+        img.thumbnail.img-responsive(src='img/problem-3.jpg', alt)
+
+section#solution.section-padded.section-key
   .container-fluid.wow.fadeInRightBig
     .row
       .col-sm-12
@@ -120,18 +122,20 @@ section#about-pcs.section-pcs.section-padded
           br
           p= item.body
 
+//- .site-map
+  #map
+
 section#contact.section-padded.section-key
   .container
     .page-header.text-center
       h2 Contact Key Marine
       p.lead.text-center TidalWrap is exclusively avaialble from Key Marine Direct Sales, Ltd.
     .row
-      .col-sm-6.text-center
-        div.logo-km
+      .col-sm-6
+        div.logo-km.pull-right
           img.img-responsive(src='img/logo-keymarine.png', alt='Key Marine Direct Sales, Ltd')
       .col-sm-6
-        p
-          strong: a(href='#{ company.url }') #{ company.name }
+        p.company-name: a(href='#{ company.url }') #{ company.name }
         address#company-address
           |  #{ company.address }
           br

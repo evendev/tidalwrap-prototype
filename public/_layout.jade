@@ -10,7 +10,7 @@ html
     //if lt IE 9
       script(src='//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js')
       script(src='//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js')
-  body#top
+  body#top(data-spy='scroll', data-target='.navbar-left', data-offset='50')
 
     header.site.site-header.site-header-alt-1
       .container-fluid
@@ -51,9 +51,6 @@ html
     .site-wrap
       .site.site-main
         != yield
-
-    //.site-map
-      #map
 
     footer.site.site-footer.section-key.section-padded
       .container-fluid
