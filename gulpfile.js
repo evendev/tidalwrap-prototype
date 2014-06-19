@@ -7,6 +7,9 @@ var shell = require('gulp-shell');
 
 var secrets = require('./secrets.json');
 
+gulp.task('imagePerms', shell.task([
+  'chmod -R 755 public/img/*'
+]));
 
 gulp.task('compile', shell.task([
   'harp compile'

@@ -2,10 +2,11 @@
   "globals": {
     "site": {
       "name": "Tidal Wrap",
-      "tagline": "Corrosion Protection for Marine Steel Pipes"
+      "tagline": "Corrosion Protection for Marine Pilings"
     },
     "company": {
       "name": "Key Marine Direct Sales Ltd.",
+      "domain": "keymarine.ca",
       "url": "http://www.keymarine.ca/",
       "phone": "+1.604.281.1102",
       "phoneUrl": "+16042811102",
@@ -30,6 +31,10 @@
       }
     },
     "blocks": {
+      "theProblem": {
+        "title": "The Problem",
+        "body": "Unprotected marine steel pilings erode prematurely, resulting in corrosion of pilings and a weaker structure."
+      },
       "intro": [{
         "title": "Splash Zone Protection",
         "body": "The PCS anticorrosive protection system provides splash zone protection for steel structures, concrete and wood."
@@ -76,7 +81,7 @@
           "Resistance to water, salts, alkalis and acids",
           "Application for new installations as corroded",
           "Mechanical covers one piece",
-          "High impact shock resistance and tides.",
+          "High impact shock resistance and tides",
           "High capacity ultraviolet",
           "Environmentally responsible and safe to use",
           "Maintenance free for a long time"
@@ -109,7 +114,7 @@
             "caption": "Install Tape",
             "image": "install-tape-2.jpg"
           }, {
-            "caption": "Installed underwater",
+            "caption": "Installed Underwater",
             "image": "install-tape-3.jpg"
           }]
         }

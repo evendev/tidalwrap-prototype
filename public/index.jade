@@ -6,23 +6,7 @@
     != site.tagline
   hr.hr-dark
 
-section#the-problem
-  .container-fluid
-    .row
-      .col-sm-12
-        .page-header
-          h2.text-center The Problem
-        p.lead.text-center Unprotected marine steel pilings erode prematurely, resulting in corrosion of pilings and a weaker structure.
-  .container-fluid.wow.fadeInLeftBig
-    .row
-      .col-sm-3.col-xs-6
-        img.thumbnail.img-responsive(src='img/problem-6.jpg', alt)
-      .col-sm-3.col-xs-6
-        img.thumbnail.img-responsive(src='img/problem-5.jpg', alt)
-      .col-sm-3.col-xs-6
-        img.thumbnail.img-responsive(src='img/problem-1.jpg', alt)
-      .col-sm-3.col-xs-6
-        img.thumbnail.img-responsive(src='img/problem-3.jpg', alt)
+!= partial('_the_problem')
 
 section#solution.section-padded.section-key
   .container-fluid.wow.fadeInRightBig
@@ -33,9 +17,11 @@ section#solution.section-padded.section-key
         p.lead.text-center Tidal Wrap protects pilings, improving the stability and longevity of the structure for years to come.
   .container-fluid
     .row.wow.fadeInDown.solution-images
-      .col-sm-4.col-sm-offset-2.col-xs-12
+      .col-sm-4
+        img.thumbnail.img-responsive(src='img/installed-1.jpg', alt)
+      .col-sm-4
         img.thumbnail.img-responsive(src='img/tidal-wrap.jpg', alt)
-      .col-sm-4.col-xs-12
+      .col-sm-4
         img.thumbnail.img-responsive(src='img/liner.jpg', alt)
 
 section#overview.section-padded
@@ -141,6 +127,10 @@ section#contact.section-padded.section-key
           br
           |  #{ company.city }, #{ company.state } #{ company.zip } #{ company.country }
           br
+          br
+          | Website:
+          | &nbsp;
+          a(href='#{ company.url }', target='_blank') #{ company.domain }
           br
           | Email:
           | &nbsp;
