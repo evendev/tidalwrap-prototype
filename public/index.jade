@@ -88,7 +88,7 @@ section#installation.section-padded.section-key
         p.lead= blocks.installation.body
     .row
       each item in blocks.installation.hydro.images
-        .col-sm-3.wow.fadeInDown
+        .col-sm-3.wow.fadeInDown.text-center
           .thumbnail
             img.img-responsive(src='img/#{ blocks.installation.hydro.imagesPath }/#{ item.image }', alt='#{ item.caption }')
             .caption= item.caption
