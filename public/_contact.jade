@@ -1,0 +1,30 @@
+section#contact.section-padded.section-key
+  .container
+    .page-header.text-center
+      h2 Contact Key Marine
+      p.lead.text-center #{ site.name } is exclusively available from #{ company.name }
+    .row
+      .col-sm-6
+        div.logo-km.pull-right
+          img.img-responsive(src='img/logo-keymarine.png', alt='Key Marine Direct Sales, Ltd')
+      .col-sm-6
+        p.company-name: a(href='#{ company.url }') #{ company.name }
+        address#company-address
+          |  #{ company.address }
+          br
+          |  #{ company.city }, #{ company.state } #{ company.zip } #{ company.country }
+          br
+          br
+          | Website:
+          | &nbsp;
+          a(href='#{ company.url }', target='_blank') #{ company.domain }
+          br
+          | Email:
+          | &nbsp;
+          a(href='mailto:#{ company.email }')= company.email
+          br
+          | Phone: #{ company.phone }
+          br
+          | Fax: #{ company.fax }
+  .site-map
+    #map

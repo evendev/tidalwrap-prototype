@@ -1,0 +1,14 @@
+section#about-pcs.section-pcs.section-padded
+  .container-fluid
+    .row
+      .col-sm-12.text-center
+        p.wow.fadeIn: img.pcs-logo(src='img/pcs-logo.png', alt='Petro Coating Systems, Ltd')
+        h2= partners.pcs.fullName
+        p: a.external(href='#{ partners.pcs.url }', target='_blank')= partners.pcs.domain
+    hr
+    .row
+      each item in blocks.pcs
+        .col-sm-6.wow.fadeInDown
+          h3= item.title
+          br
+          p= item.body

@@ -1,141 +1,15 @@
 .container-fluid
-  //- .page-header
-  br
   h1.text-center Tidal Wrap Provides
     br
     != site.tagline
   hr.hr-dark
 
 != partial('_the_problem')
-
-section#solution.section-padded.section-key
-  .container-fluid.wow.fadeInRightBig
-    .row
-      .col-sm-12
-        .page-header
-          h2.text-center The Solution
-        p.lead.text-center Tidal Wrap protects pilings, improving the stability and longevity of the structure for years to come.
-  .container-fluid
-    .row.wow.fadeInDown.solution-images
-      .col-sm-4
-        img.thumbnail.img-responsive(src='img/installed-1.jpg', alt)
-      .col-sm-4
-        img.thumbnail.img-responsive(src='img/tidal-wrap.jpg', alt)
-      .col-sm-4
-        img.thumbnail.img-responsive(src='img/liner.jpg', alt)
-
-section#overview.section-padded
-  .container-fluid
-    .page-header.text-center
-      h2 Overview of Tidal Wrap
-    .row
-      .col-sm-6
-        each item in blocks.intro
-          .wow.bounceInLeft
-            h3= item.title
-            p= item.body
-      .col-sm-6
-        p.wow.bounceInLeft: img.img-responsive(src='img/piling-en.png', alt)
-
-section#smart-band.section-padded
-  .container-fluid.text-center
-    hr
-    .page-header
-      h2 Tidal Wrap Smart Band
-    .row.wow.fadeInDown
-      .col-sm-8.col-sm-offset-2
-        p.lead Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
-    .row
-      .col-sm-12
-        p.wow.fadeInDown: img.img-responsive(src='img/smart-band.jpg', alt='Smart Band')
-        p.wow.fadeInDown: img.img-responsive(src='img/tidal-wrap.jpg', alt)
-
-section#system.section-padded.section-key
-  .container-fluid
-    .page-header.text-center
-      h2 Subsystem &amp; Products
-    each item in blocks.system
-      .row.subsystem-item.wow.fadeInDown
-        .col-sm-4.col-sm-offset-2
-          p: img.img-responsive.thumbnail(src='img/#{ item.image }', alt='#{ item.title }')
-        .col-sm-4
-          h3= item.title
-          p= item.body
-
-section#advantages.section-padded
-  .container-fluid
-    .row.wow.fadeInDown
-      .col-sm-12.text-center
-        .page-header
-          h2= blocks.characteristics.title
-    .row.text-center
-      .col-sm-8.col-sm-offset-2
-        each p in blocks.characteristics.body
-          p.lead.wow.fadeInDown= p
-    .row.wow.fadeInRightBig
-      .col-sm-6.col-sm-offset-3.text-center
-        ul.list-group
-          each item in blocks.characteristics.items
-            li.list-group-item= item
-
-
-section#installation.section-padded.section-key
-  .container-fluid
-    .page-header.text-center
-      h2= blocks.installation.title
-    .row
-      .col-sm-12.text-center
-        p.lead= blocks.installation.body
-    .row
-      each item in blocks.installation.hydro.images
-        .col-sm-3.wow.fadeInDown.text-center
-          .thumbnail
-            img.img-responsive(src='img/#{ blocks.installation.hydro.imagesPath }/#{ item.image }', alt='#{ item.caption }')
-            .caption= item.caption
-
-section#about-pcs.section-pcs.section-padded
-  .container-fluid
-    .row
-      .col-sm-12.text-center
-        p.wow.fadeIn: img.pcs-logo(src='img/pcs-logo.png', alt='Petro Coating Systems, Ltd')
-        h2= partners.pcs.fullName
-        p: a.external(href='#{ partners.pcs.url }', target='_blank')= partners.pcs.domain
-    hr
-    .row
-      each item in blocks.pcs
-        .col-sm-6.wow.fadeInDown
-          h3= item.title
-          br
-          p= item.body
-
-//- .site-map
-  #map
-
-section#contact.section-padded.section-key
-  .container
-    .page-header.text-center
-      h2 Contact Key Marine
-      p.lead.text-center #{ site.name } is exclusively available from #{ company.name }
-    .row
-      .col-sm-6
-        div.logo-km.pull-right
-          img.img-responsive(src='img/logo-keymarine.png', alt='Key Marine Direct Sales, Ltd')
-      .col-sm-6
-        p.company-name: a(href='#{ company.url }') #{ company.name }
-        address#company-address
-          |  #{ company.address }
-          br
-          |  #{ company.city }, #{ company.state } #{ company.zip } #{ company.country }
-          br
-          br
-          | Website:
-          | &nbsp;
-          a(href='#{ company.url }', target='_blank') #{ company.domain }
-          br
-          | Email:
-          | &nbsp;
-          a(href='mailto:#{ company.email }')= company.email
-          br
-          | Phone: #{ company.phone }
-          br
-          | Fax: #{ company.fax }
+!= partial('_the_solution')
+!= partial('_overview')
+!= partial('_smart_band')
+!= partial('_system')
+!= partial('_advantages')
+!= partial('_installation')
+!= partial('_about_pcs')
+!= partial('_contact')

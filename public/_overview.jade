@@ -1,0 +1,12 @@
+section#overview.section-padded
+  .container-fluid
+    .page-header.text-center
+      h2 Overview of Tidal Wrap
+    .row
+      .col-sm-6
+        each item in blocks.intro
+          .wow.bounceInLeft
+            h3= item.title
+            p= item.body
+      .col-sm-6
+        p.wow.bounceInLeft: img.img-responsive(src='img/piling-en.png', alt)
