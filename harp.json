@@ -35,39 +35,53 @@
         "title": "The Problem",
         "body": "Unprotected marine steel pilings erode prematurely, resulting in corrosion of pilings and a weaker structure."
       },
-      "intro": [{
-        "title": "Splash Zone Protection",
-        "body": "The PCS anticorrosive protection system provides splash zone protection for steel structures, concrete and wood."
-      }, {
-        "title": "Ideal for Marine Environments",
-        "body": "The PCS system is ideal for environments where conditions are too severe for paint systems, epoxies and other conventional forms of protection."
-      }, {
-        "title": "Stop Corrosion on Metal Surfaces",
-        "body": "The PCS system seals the oxygen and water and effectively stops corrosion on metal surfaces."
-      }, {
-        "title": "Prevents Further Corrosion",
-        "body": "The system also prevents loosening and corrosion of steel reinforcement in concrete piles. The PCS system encapsulates pier piles, riser tubes and pipes exposed in intertidal zones and splash."
-      }, {
-        "title": "Various Configurations",
-        "body": "The system accommodates cylindrical piles and H configurations and support members, reinforcement, supports and other uneven surfaces."
-      }],
-      "system": [{
-        "title": "PCS Primer",
-        "body": "Petrolatum-based primer for use on metal surfaces prior to wrapping with Anti corrosion Petro Tape.",
-        "image": "primer.png"
-      }, {
-        "title": "PCS Mastic",
-        "body": "Petrolatum Mastic is used to fill cavities based on uneven surfaces before wrapping PCS Anti corrosion tape.",
-        "image": "mastic.png"
-      }, {
-        "title": "PCS Liner 6000",
-        "body": "The PC® 6000HD series consists of a proprietary polymer polyolefin, fully protected against UV degradation and oxidation with technically advanced stabilization package.",
-        "image": "liner.jpg"
-      }, {
-        "title": "Petro Tape",
-        "body": "Synthetic adhesive fabric impregnated and coated with a material based on waxes and oils, covered with vaseline-based compounds and inert fibers.",
-        "image": "petrotape.png"
-        }],
+      "theSolution": {
+        "title": "The Solution",
+        "body": "Tidal Wrap protects pilings, improving the stability and longevity of the structure for years to come."
+      },
+      "overview": {
+        "title": "Overview of Tidal Wrap",
+        "items": [{
+          "title": "Splash Zone Protection",
+          "body": "The PCS anticorrosive protection system provides splash zone protection for steel structures, concrete and wood."
+        }, {
+          "title": "Ideal for Marine Environments",
+          "body": "The PCS system is ideal for environments where conditions are too severe for paint systems, epoxies and other conventional forms of protection."
+        }, {
+          "title": "Stop Corrosion on Metal Surfaces",
+          "body": "The PCS system seals the oxygen and water and effectively stops corrosion on metal surfaces."
+        }, {
+          "title": "Prevents Further Corrosion",
+          "body": "The system also prevents loosening and corrosion of steel reinforcement in concrete piles. The PCS system encapsulates pier piles, riser tubes and pipes exposed in intertidal zones and splash."
+        }, {
+          "title": "Various Configurations",
+          "body": "The system accommodates cylindrical piles and H configurations and support members, reinforcement, supports and other uneven surfaces."
+        }]
+      },
+      "smartBand": {
+        "title": "Tidal Wrap Smart Band",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+      },
+      "system": {
+        "title": "Subsystem & Products",
+        "items": [{
+          "title": "PCS Primer",
+          "body": "Petrolatum-based primer for use on metal surfaces prior to wrapping with Anti corrosion Petro Tape.",
+          "image": "primer.png"
+        }, {
+          "title": "PCS Mastic",
+          "body": "Petrolatum Mastic is used to fill cavities based on uneven surfaces before wrapping PCS Anti corrosion tape.",
+          "image": "mastic.png"
+        }, {
+          "title": "PCS Liner 6000",
+          "body": "The PC® 6000HD series consists of a proprietary polymer polyolefin, fully protected against UV degradation and oxidation with technically advanced stabilization package.",
+          "image": "liner.jpg"
+        }, {
+          "title": "Petro Tape",
+          "body": "Synthetic adhesive fabric impregnated and coated with a material based on waxes and oils, covered with vaseline-based compounds and inert fibers.",
+          "image": "petrotape.png"
+          }]
+        },
       "characteristics": {
         "title": "Characteristics & Advantages",
         "body": [
@@ -131,7 +145,18 @@
       }, {
         "title": "North American",
         "body": "Located in Toronto, Canada PCS is one of the most efficient in their field and have the latest manufacturing equipment."
-      }]
+      }],
+      "contact": {
+        "title": "Contact Key Marine",
+        "subTitle": "Tidal Wrap is exclusively available from Key Marine Direct Sales Ltd.",
+        "websiteLabel": "Website",
+        "emailLabel": "Email",
+        "phoneLabel": "Phone",
+        "faxLabel": "Fax"
+      },
+      "footer": {
+        "label": "Site contents"
+      }
     }
   }
 }
