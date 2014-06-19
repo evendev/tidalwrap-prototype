@@ -1,8 +1,8 @@
 section#contact.section-padded.section-key
   .container
     .page-header.text-center
-      h2 Contact Key Marine
-      p.lead.text-center #{ site.name } is exclusively available from #{ company.name }
+      h2= blocks.contact.title
+      p.lead.text-center= blocks.contact.subTitle
     .row
       .col-sm-6
         div.logo-km.pull-right
@@ -15,16 +15,16 @@ section#contact.section-padded.section-key
           |  #{ company.city }, #{ company.state } #{ company.zip } #{ company.country }
           br
           br
-          | Website:
+          | #{ blocks.contact.websiteLabel }:
           | &nbsp;
           a(href='#{ company.url }', target='_blank') #{ company.domain }
           br
-          | Email:
+          | #{ blocks.contact.emailLabel }:
           | &nbsp;
           a(href='mailto:#{ company.email }')= company.email
           br
-          | Phone: #{ company.phone }
+          | #{ blocks.contact.phoneLabel }: #{ company.phone }
           br
-          | Fax: #{ company.fax }
+          | #{ blocks.contact.faxLabel }: #{ company.fax }
   .site-map
     #map

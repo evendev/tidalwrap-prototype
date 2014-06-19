@@ -1,8 +1,8 @@
 section#system.section-padded.section-key
   .container-fluid
     .page-header.text-center
-      h2 Subsystem &amp; Products
-    each item in blocks.system
+      h2= blocks.system.title
+    each item in blocks.system.items
       .row.subsystem-item.wow.fadeInDown
         .col-sm-4.col-sm-offset-2
           p: img.img-responsive.thumbnail(src='img/#{ item.image }', alt='#{ item.title }')

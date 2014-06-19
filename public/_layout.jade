@@ -57,7 +57,7 @@ html(lang='en')
       .container-fluid
         .row
           .col-sm-12.text-center
-            p.copyright Site contents &copy; #{ new Date().getFullYear() }
+            p.copyright #{ blocks.footer.label } &copy; #{ new Date().getFullYear() }
               | &nbsp;
               a(href='#{ company.url }') #{ company.name }
 
