@@ -1,11 +1,11 @@
 section#system.section-padded.section-key
   .container-fluid
     .page-header.text-center
-      h2= blocks.system.title
-    each item in blocks.system.items
+      h2= system.title
+    each item in system.items
       .row.subsystem-item.wow.fadeInDown
         .col-sm-4.col-sm-offset-2
-          p: img.img-responsive.thumbnail(src='img/#{ item.image }', alt='#{ item.title }')
+          p: img.img-responsive.thumbnail(src='/img/#{ item.image }', alt='#{ item.title }')
         .col-sm-4
           h3= item.title
           p= item.body

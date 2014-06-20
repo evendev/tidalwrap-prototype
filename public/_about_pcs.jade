@@ -2,12 +2,12 @@ section#about-pcs.section-pcs.section-padded
   .container-fluid
     .row
       .col-sm-12.text-center
-        p.wow.fadeIn: img.pcs-logo(src='img/pcs-logo.png', alt='Petro Coating Systems, Ltd')
+        p.wow.fadeIn: img.pcs-logo(src='/img/pcs-logo.png', alt='#{ partners.pcs.fullName }')
         h2= partners.pcs.fullName
         p: a.external(href='#{ partners.pcs.url }', target='_blank')= partners.pcs.domain
     hr
     .row
-      each item in blocks.pcs
+      each item in aboutPcs.items
         .col-sm-6.wow.fadeInDown
           h3= item.title
           br

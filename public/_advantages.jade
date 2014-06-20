@@ -3,13 +3,13 @@ section#advantages.section-padded
     .row.wow.fadeInDown
       .col-sm-12.text-center
         .page-header
-          h2= blocks.characteristics.title
+          h2= characteristics.title
     .row.text-center
       .col-sm-8.col-sm-offset-2
-        each p in blocks.characteristics.body
+        each p in characteristics.body
           p.lead.wow.fadeInDown= p
     .row.wow.fadeInRightBig
       .col-sm-6.col-sm-offset-3.text-center
         ul.list-group
-          each item in blocks.characteristics.items
+          each item in characteristics.items
             li.list-group-item= item

@@ -1,12 +1,12 @@
 section#overview.section-padded
   .container-fluid
     .page-header.text-center
-      h2= blocks.overview.title
+      h2= overview.title
     .row
       .col-sm-6
-        each item in blocks.overview.items
+        each item in overview.items
           .wow.bounceInLeft
             h3= item.title
             p= item.body
       .col-sm-6
-        p.wow.bounceInLeft: img.img-responsive(src='img/piling-en.png', alt)
+        p.wow.bounceInLeft: img.img-responsive(src='/img/piling-#{ language }.png', alt)

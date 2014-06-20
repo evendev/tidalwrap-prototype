@@ -1,12 +1,12 @@
 section#contact.section-padded.section-key
   .container
     .page-header.text-center
-      h2= blocks.contact.title
-      p.lead.text-center= blocks.contact.subTitle
+      h2= contact.title
+      p.lead.text-center= contact.subTitle
     .row
       .col-sm-6
         div.logo-km.pull-right
-          img.img-responsive(src='img/logo-keymarine.png', alt='Key Marine Direct Sales, Ltd')
+          img.img-responsive(src='/img/logo-keymarine.png', alt='Key Marine Direct Sales, Ltd')
       .col-sm-6
         p.company-name: a(href='#{ company.url }') #{ company.name }
         address#company-address
@@ -15,16 +15,16 @@ section#contact.section-padded.section-key
           |  #{ company.city }, #{ company.state } #{ company.zip } #{ company.country }
           br
           br
-          | #{ blocks.contact.websiteLabel }:
+          | #{ contact.websiteLabel }:
           | &nbsp;
           a(href='#{ company.url }', target='_blank') #{ company.domain }
           br
-          | #{ blocks.contact.emailLabel }:
+          | #{ contact.emailLabel }:
           | &nbsp;
           a(href='mailto:#{ company.email }')= company.email
           br
-          | #{ blocks.contact.phoneLabel }: #{ company.phone }
+          | #{ contact.phoneLabel }: #{ company.phone }
           br
-          | #{ blocks.contact.faxLabel }: #{ company.fax }
+          | #{ contact.faxLabel }: #{ company.fax }
   .site-map
     #map
