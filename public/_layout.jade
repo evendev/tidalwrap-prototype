@@ -34,14 +34,8 @@ html(lang='#{ language }')
           .collapse.navbar-collapse
             .navbar-left
               ul.nav.navbar-nav
-                li: a(href='#top') Problem &amp; Solution
-                li: a(href='#overview') Overview
-                li: a(href='#smart-band') Smart Band
-                li: a(href='#system') System &amp; Products
-                li: a(href="#advantages") Advantages
-                li: a(href="#installation") Installation
-                li: a(href="#about-pcs") PCS
-                li: a(href="#contact") Contact
+                each item, key in navItems
+                  li: a(href='#{ key }')= item
             .navbar-right
               ul.nav.navbar-nav
                 if (language == 'en')

@@ -2,6 +2,16 @@
   "index": {
     "language": "es",
     "tagline": "Protección Contra la Corrosión de Marina Pilotes",
+    "navItems": {
+      "#top": "Problema y Solución",
+      "#overview": "Sumario",
+      "#smart-band": "Smart Band",
+      "#system": "Sistema",
+      "#advantages": "Ventajas",
+      "#installation": "Instalación",
+      "#about-pcs": "PCS",
+      "#contact": "Contacto"
+    },
     "theProblem": {
       "title": "La Problema",
       "body": "En Español"

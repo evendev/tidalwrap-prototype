@@ -2,6 +2,16 @@
   "index": {
     "language": "en",
     "tagline": "Corrosion Protection for Marine Pilings",
+    "navItems": {
+      "#top": "Problem & Solution",
+      "#overview": "Overview",
+      "#smart-band": "Smart Band",
+      "#system": "System & Products",
+      "#advantages": "Advantages",
+      "#installation": "Installation",
+      "#about-pcs": "PCS",
+      "#contact": "Contact"
+    },
     "theProblem": {
       "title": "The Problem",
       "body": "Unprotected marine pilings erode prematurely, resulting in corrosion of pilings and a weaker structure."
