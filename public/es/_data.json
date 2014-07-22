@@ -62,8 +62,8 @@
         "image": "liner.jpg"
       }, {
         "title": "PCS Smart Band",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "image": ""
+        "body": "<mark>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mark>",
+        "image": "smart-band-installed.jpg"
       }]
     },
     "characteristics": {

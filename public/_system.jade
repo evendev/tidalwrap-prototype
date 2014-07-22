@@ -8,4 +8,4 @@ section#system.section-padded.section-key
           p: img.img-responsive.thumbnail(src='/img/#{ item.image }', alt='#{ item.title }')
         .col-sm-4
           h3= item.title
-          p= item.body
+          p!= item.body
