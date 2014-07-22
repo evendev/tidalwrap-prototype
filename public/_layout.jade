@@ -16,10 +16,10 @@ html(lang='#{ language }')
     header.site.site-header
       .container-fluid
         .row
-          .col-sm-4.header-logo
-            a(href='/')
-              img(src='/img/logo.png', alt='#{ site.name }')
-          .col-sm-8
+          .col-sm-12
+            .header-logo
+              a(href='/')
+                img(src='/img/logo.png', alt='#{ site.name }')
             p.header-tagline= tagline
 
     nav.site.site-nav
