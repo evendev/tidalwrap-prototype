@@ -111,6 +111,18 @@
         }, {
           "caption": "Installed Underwater",
           "image": "install-tape-3.jpg"
+        }, {
+          "caption": "Apply Tape & Primer",
+          "image": "apply-tape-1.jpg"
+        }, {
+          "caption": "Apply Tape",
+          "image": "apply-tape-2.jpg"
+        }, {
+          "caption": "Apply Primer",
+          "image": "apply-primer.jpg"
+        }, {
+          "caption": "Apply Liner",
+          "image": "apply-liner.jpg"
         }]
       }
     },
