@@ -72,7 +72,7 @@
    */
   App.init = function() {
     new WOW().init();
-    App.loadExtras();
+    // App.loadExtras();
     App.initMap();
     App.initSmoothScrollNav();
   };
