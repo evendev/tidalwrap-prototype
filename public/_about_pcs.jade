@@ -6,9 +6,11 @@ section#about-pcs.section-pcs.section-padded
         h2= partners.pcs.fullName
         p: a.external(href='#{ partners.pcs.url }', target='_blank')= partners.pcs.domain
     hr
-    .row
-      each item in aboutPcs.items
-        .col-sm-6.wow.fadeInDown
+    .row.wow.fadeInDown
+      each item, i in aboutPcs.items
+        if i == 2
+          .clearfix
+        .col-sm-6
           h3= item.title
           br
           p= item.body
