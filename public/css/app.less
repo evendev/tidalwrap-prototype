@@ -8,8 +8,6 @@
 @import url('//fonts.googleapis.com/css?family=Asap:400,700,400italic,700italic');
 
 
-/** Mixins **/
-
 
 
 /** Utility **/
@@ -76,13 +74,13 @@ body {
 
 /** Nav **/
 .site-nav {
-  &.navbar-inverse {
-    background-color: black;
-    background-image: linear-gradient(0deg, black, #333 97%, black);
+  .navbar {
+    border: none 0;
   }
-  .flag {
-
-  }
+  // &.navbar-inverse {
+  //   background-color: black;
+  //   background-image: linear-gradient(0deg, black, #333 97%, black);
+  // }
 }
 @media (max-width: @screen-sm-min) {
   .site-nav .container {
