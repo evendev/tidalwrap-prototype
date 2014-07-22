@@ -2,22 +2,24 @@
   "globals": {
     "site": {
       "name": "Tidal Wrap",
-      "tagline": "Corrosion Protection for Marine Pilings"
+      "tagline": "Corrosion Protection for Marine Pilings",
+      "domain": "tidalwrap.com",
+      "url": "http://www.tidalwrap.com"
     },
     "company": {
       "name": "Key Marine Direct Sales Ltd.",
       "domain": "keymarine.ca",
       "url": "http://www.keymarine.ca/",
-      "phone": "+1.604.281.1102",
-      "phoneUrl": "+16042811102",
+      "phone": "+1.416.931.0091",
+      "phoneUrl": "+14169310091",
       "fax": "+1.778.279.7771",
       "faxUrl": "+17782797771",
-      "email": "direct@keymarine.ca",
-      "address": "468 Wellington Street West #201",
+      "email": "mgalindo@keymarine.ca",
+      "address": "Suite 201 468 Wellington Street West",
       "city": "Toronto",
       "country": "Canada",
       "state": "ON",
-      "zip": "M5V1E3",
+      "zip": "M5V 1E3",
       "googleMapShortUrl": "https://goo.gl/maps/qmPPl",
       "latitude": "43.6435613",
       "longitude": "-79.39785180000001"

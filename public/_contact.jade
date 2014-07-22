@@ -12,12 +12,14 @@ section#contact.section-padded.section-key
         address#company-address
           |  #{ company.address }
           br
-          |  #{ company.city }, #{ company.state } #{ company.zip } #{ company.country }
+          |  #{ company.city }, #{ company.state } #{ company.zip }
+          br
+          | #{ company.country }
           br
           br
           | #{ contact.websiteLabel }:
           | &nbsp;
-          a(href='#{ company.url }', target='_blank') #{ company.domain }
+          a(href='#{ site.url }', target='_blank') #{ site.domain }
           br
           | #{ contact.emailLabel }:
           | &nbsp;

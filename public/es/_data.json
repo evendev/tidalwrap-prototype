@@ -5,7 +5,6 @@
     "navItems": {
       "#top": "Problema y Solución",
       "#overview": "Sumario",
-      "#smart-band": "Smart Band",
       "#system": "Sistema",
       "#advantages": "Ventajas",
       "#installation": "Instalación",
@@ -46,21 +45,25 @@
     "system": {
       "title": "Subsistema y Productos",
       "items": [{
+        "title": "PCS Mastic",
+        "body": "Petrolatum Mastic is used to fill cavities based on uneven surfaces before wrapping PCS Anti corrosion tape.",
+        "image": "mastic.png"
+      }, {
         "title": "PCS Primer",
         "body": "Petrolatum-based primer for use on metal surfaces prior to wrapping with Anti corrosion Petro Tape.",
         "image": "primer.png"
       }, {
-        "title": "PCS Mastic",
-        "body": "Petrolatum Mastic is used to fill cavities based on uneven surfaces before wrapping PCS Anti corrosion tape.",
-        "image": "mastic.png"
+        "title": "PCS Marine-Grade Petro Tape",
+        "body": "Synthetic adhesive fabric impregnated and coated with a material based on waxes and oils, covered with vaseline-based compounds and inert fibers.",
+        "image": "petrotape.png"
       }, {
         "title": "PCS Liner 6000",
         "body": "The PC® 6000HD series consists of a proprietary polymer polyolefin, fully protected against UV degradation and oxidation with technically advanced stabilization package.",
         "image": "liner.jpg"
       }, {
-        "title": "Petro Tape",
-        "body": "Synthetic adhesive fabric impregnated and coated with a material based on waxes and oils, covered with vaseline-based compounds and inert fibers.",
-        "image": "petrotape.png"
+        "title": "PCS Smart Band",
+        "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "image": ""
       }]
     },
     "characteristics": {
@@ -128,17 +131,17 @@
     },
     "aboutPcs": {
       "items": [{
-        "title": "Prevents Corrosion",
-        "body": "PCS products are designed to stop and prevent corrosion in pipes, valves, piles, fittings and flanges in the most extreme environments imaginable."
-      }, {
-        "title": "Various Applications",
-        "body": "PCS products are used successfully in a variety of applications in oil & gas, pulp & paper, municipal and wastewater industries and routine building maintenance."
-      }, {
         "title": "A Leading Manufacturer",
         "body": "PCS is one of the leading manufacturers of anticorrosion tape systems petrolatum, exporting to many countries throughout the world."
       }, {
         "title": "North American",
         "body": "Located in Toronto, Canada PCS is one of the most efficient in their field and have the latest manufacturing equipment."
+      }, {
+        "title": "Prevents Corrosion",
+        "body": "PCS products are designed to stop and prevent corrosion in pipes, valves, piles, fittings and flanges in the most extreme environments imaginable."
+      }, {
+        "title": "Various Applications",
+        "body": "PCS products are used successfully in a variety of applications in oil & gas, pulp & paper, municipal and wastewater industries and routine building maintenance."
       }]
     },
     "contact": {
