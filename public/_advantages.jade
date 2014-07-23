@@ -8,8 +8,21 @@ section#advantages.section-padded
       .col-sm-8.col-sm-offset-2
         each p in characteristics.body
           p.lead.wow.fadeInDown= p
-    .row.wow.fadeInRightBig
-      .col-sm-6.col-sm-offset-3.text-center
-        ul.list-group
-          each item in characteristics.items
-            li.list-group-item= item
+    .row
+      .col-sm-6.wow.fadeInLeftBig
+        .list-group.advantages
+          - var n = characteristics.items.length
+          - for (var i = 0; i < n/2; i++)
+            .list-group-item
+              p.list-group-item-heading
+                i.glyphicon.glyphicon-ok-sign
+                |&nbsp;
+                != characteristics.items[i]
+      .col-sm-6.wow.fadeInRightBig
+        .list-group.advantages
+          - for (var i = n/2; i < n; i++)
+            .list-group-item
+              p.list-group-item-heading
+                i.glyphicon.glyphicon-ok-sign
+                |&nbsp;
+                != characteristics.items[i]
