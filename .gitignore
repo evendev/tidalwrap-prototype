@@ -2,5 +2,6 @@
 
 /www
 /node_modules
+/tmp
 
 /secrets.json
