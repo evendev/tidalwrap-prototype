@@ -4,7 +4,7 @@ section#installation.section-padded.section-key
       h2= installation.title
     .row
       .col-sm-12.text-center
-        p.lead: mark= installation.body
+        p.lead!= installation.body
     .row
       each item in installation.hydro.images
         .col-sm-3.wow.fadeInDown.text-center
