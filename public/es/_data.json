@@ -55,15 +55,16 @@
       }, {
         "title": "PCS Marine-Grade Petro Tape",
         "body": "Synthetic adhesive fabric impregnated and coated with a material based on waxes and oils, covered with anti-bacterial vaseline-based compounds and inert fibers.",
-        "image": "petrotape.png"
+        "image": "pcs-marine-grade-petro-tape.jpg"
       }, {
         "title": "PCS Liner 6000 Series",
         "body": "The PCS® 6000HD series consists of a proprietary polymer polyolefin, fully protected against UV degradation and oxidation (Guaranteed up to 30 years) with technically advanced stabilization package.",
-        "image": "liner.jpg"
+        "image": "pcs-liner-6000-series.jpg"
       }, {
         "title": "PCS Smart Band",
         "body": "A premium high strength composite polymer based Strap and Buckle system, very safe and easy to fit. It has high strength up to 2,551 kgf.",
-        "image": "smart-band-installed.jpg"
+        "image": "smart-band-installed.jpg",
+        "imageInBody": "smart-band-thumb.jpg"
       }]
     },
     "characteristics": {
