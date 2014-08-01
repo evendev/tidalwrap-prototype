@@ -6,15 +6,6 @@
    */
   var App = {};
 
-  /**
-   * Load css/prototype.css if body.prototype
-   */
-  App.loadExtras = function() {
-    if ($('body').hasClass('prototype')) {
-      $('head')
-        .append('<link rel="stylesheet" href="css/prototype.css">');
-    }
-  };
 
   /**
    * Initialize the map
@@ -72,7 +63,6 @@
    */
   App.init = function() {
     new WOW().init();
-    // App.loadExtras();
     App.initMap();
     App.initSmoothScrollNav();
   };
