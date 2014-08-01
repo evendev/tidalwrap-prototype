@@ -17,33 +17,29 @@
     },
     "theSolution": {
       "title": "La Solución",
-      "body": "Tidal Wrap protects pilings, improving the stability and longevity of the structure for years to come."
+      "body": "<span class='company-name'>Tidal Wrap</span> protects pilings, improving the stability and longevity of the structure for years to come."
     },
     "overview": {
-      "title": "El Sumario de Tidal Wrap",
+      "title": "El Sumario de <span class='company-name'>Tidal Wrap</span>",
       "items": [{
         "title": "Protección por La Zona de Chapeoteo",
-        "body": "Tidal Wrap provides splash zone protection for steel structures, concrete and wood."
+        "body": "<span class='company-name'>Tidal Wrap</span> provides splash zone protection for steel structures, concrete and wood."
       }, {
         "title": "Perfecto por Ambientes Marinos",
-        "body": "Tidal Wrap is ideal for environments where conditions are too severe for paint systems, epoxies and other conventional forms of protection."
+        "body": "<span class='company-name'>Tidal Wrap</span> is ideal for environments where conditions are too severe for paint systems, epoxies and other conventional forms of protection."
       }, {
         "title": "Detiene La Corrosión",
-        "body": "Tidal Wrap seals the oxygen and water and effectively stops corrosion on metal surfaces."
+        "body": "<span class='company-name'>Tidal Wrap</span> seals the oxygen and water and effectively stops corrosion on metal surfaces."
       }, {
         "title": "Previene La Corrosión Adicional",
-        "body": "Tidal Wrap also prevents loosening and corrosion of steel reinforcement in concrete piles. Tidal Wrap encapsulates pier piles, riser tubes and pipes exposed in intertidal zones and splash."
+        "body": "<span class='company-name'>Tidal Wrap</span> also prevents loosening and corrosion of steel reinforcement in concrete piles. <span class='company-name'>Tidal Wrap</span> encapsulates pier piles, riser tubes and pipes exposed in intertidal zones and splash."
       }, {
         "title": "Varias Configuraciones",
-        "body": "Tidal Wrap accommodates cylindrical piles and H configurations and support members, reinforcement, supports and other uneven surfaces."
+        "body": "<span class='company-name'>Tidal Wrap</span> accommodates cylindrical piles and H configurations and support members, reinforcement, supports and other uneven surfaces."
       }]
     },
-    "smartBand": {
-      "title": "Banda Inteligente de Tidal Wrap",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
-    },
     "system": {
-      "title": "Tidal Wrap Subsistema y Productos",
+      "title": "<span class='company-name'>Tidal Wrap</span> Subsistema y Productos",
       "items": [{
         "title": "PCS Underwater Primer",
         "body": "Petrolatum-based primer for use on metal surfaces prior to wrapping with Anti corrosion Petro Tape.",
@@ -64,7 +60,7 @@
       }]
     },
     "characteristics": {
-      "title": "Tidal Wrap Characteristics & Advantages",
+      "title": "<span class='company-name'>Tidal Wrap</span> Characteristics & Advantages",
       "body": [
         "Since its first introduction in 1929 petrolatum tapes have established an enviable record of performance and unparalleled asset protection in a number of environments."
       ],
@@ -83,7 +79,7 @@
     },
     "installation": {
       "title": "Instalación",
-      "body": "Tidal Wrap is a very versatile and easy system to apply. It is virtually the <strong>only</strong> solution suitable for splashing zones, inter-tidals as well as underwater installations. The PCS Primer and Tapes will never dry, therefore, will remain soft and will not crack or allow oxygen and or water to the structure.",
+      "body": "<span class='company-name'>Tidal Wrap</span> is a very versatile and easy system to apply. It is virtually the <strong>only</strong> solution suitable for splashing zones, inter-tidals as well as underwater installations. The PCS Primer and Tapes will never dry, therefore, will remain soft and will not crack or allow oxygen and or water to the structure.",
       "hydro": {
         "imagesPath": "installation/hydro",
         "images": [{
@@ -142,7 +138,7 @@
     },
     "contact": {
       "title": "Contact Key Marine",
-      "subTitle": "Tidal Wrap is exclusively available from Key Marine Direct Sales Ltd.",
+      "subTitle": "<span class='company-name'>Tidal Wrap</span> is exclusively available from Key Marine Direct Sales Ltd.",
       "websiteLabel": "Sitio Web",
       "emailLabel": "Email",
       "phoneLabel": "Teléfono",
