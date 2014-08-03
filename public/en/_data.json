@@ -1,7 +1,8 @@
 {
   "index": {
     "language": "en",
-    "tagline": "Corrosion Protection for Marine Pilings",
+    "tagline1": "<span class='brand-name'>Tidal Wrap</span> Provides",
+    "tagline2": "Corrosion Protection for Marine Pilings",
     "navItems": {
       "#top": "Problem & Solution",
       "#overview": "Overview",

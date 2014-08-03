@@ -1,7 +1,8 @@
 {
   "index": {
     "language": "es",
-    "tagline": "Protección Contra la Corrosión de Marina Pilotes",
+    "tagline1": "<span class='brand-name'>Tidal Wrap</span> Provee",
+    "tagline2": "Protección Contra la Corrosión en Pilotes y Estructuras Marinas",
     "navItems": {
       "#top": "Problema y Solución",
       "#overview": "Sumario",
@@ -12,49 +13,49 @@
       "#contact": "Contacto"
     },
     "theProblem": {
-      "title": "La Problema",
-      "body": "Unprotected marine pilings erode prematurely, resulting in corrosion of pilings and a weaker structure."
+      "title": "El Problema",
+      "body": "Pilotes marinos están expuestos a alta corrosión y se deterioran prematuramente, resultando en serios problemas de mantenimiento y debilitamiento de la estructura en general."
     },
     "theSolution": {
-      "title": "La Solución",
-      "body": "<span class='brand-name'>Tidal Wrap</span> protects pilings, improving the stability and longevity of the structure for years to come."
+      "title": "La Solucion",
+      "body": "<span class='brand-name'>Tidal Wrap</span> protege pilotes marinos, mejorando la estabilidad y vida útil de la estructura por muchos años por venir."
     },
     "overview": {
-      "title": "El Sumario de <span class='brand-name'>Tidal Wrap</span>",
+      "title": "<span class='brand-name'>Tidal Wrap</span> - Información General",
       "items": [{
-        "title": "Protección por La Zona de Chapeoteo",
-        "body": "<span class='brand-name'>Tidal Wrap</span> provides splash zone protection for steel structures, concrete and wood."
+        "title": "Zona de Chapoteo",
+        "body": "<span class='brand-name'>Tidal Wrap</span> protege las áreas de chapoteo, inter-mareales, y tanto como sumergidas en pilotes marinos."
       }, {
-        "title": "Perfecto por Ambientes Marinos",
-        "body": "<span class='brand-name'>Tidal Wrap</span> is ideal for environments where conditions are too severe for paint systems, epoxies and other conventional forms of protection."
+        "title": "Ideal Para Ambiences Marinos",
+        "body": "<span class='brand-name'>Tidal Wrap</span> es ideal para ambientes donde las condiciones de corrosión son severas para sistemas de pinturas o otros sistemas convencionales de revestimientos."
       }, {
-        "title": "Detiene La Corrosión",
-        "body": "<span class='brand-name'>Tidal Wrap</span> seals the oxygen and water and effectively stops corrosion on metal surfaces."
+        "title": "Para la Corrosion Completamente",
+        "body": "<span class='brand-name'>Tidal Wrap</span> desplaza y sella el oxigeno y la humedad o agua efectivamente parando la corrosión por completo por largo tiempo."
       }, {
-        "title": "Previene La Corrosión Adicional",
-        "body": "<span class='brand-name'>Tidal Wrap</span> also prevents loosening and corrosion of steel reinforcement in concrete piles. <span class='brand-name'>Tidal Wrap</span> encapsulates pier piles, riser tubes and pipes exposed in intertidal zones and splash."
+        "title": "Previene Corrosión Futura en Pilotes de Concreto y demás",
+        "body": "<span class='brand-name'>Tidal Wrap</span> también previene corrosión en las varas de acero de reforzamiento para pilotes de concreto. Encapsula pilotes de acero, madera, tuberías de agua y refrigeración, etc."
       }, {
-        "title": "Varias Configuraciones",
-        "body": "<span class='brand-name'>Tidal Wrap</span> accommodates cylindrical piles and H configurations and support members, reinforcement, supports and other uneven surfaces."
+        "title": "Versátil Para Varias Configuraciones",
+        "body": "<span class='brand-name'>Tidal Wrap</span> es muy versátil de aplicar y se acomoda a pilotes redondos, hexagonales, cuadrados, etc. Incluyendo configuraciones de estructura en “H” así como estructuras laterales u otras superficies."
       }]
     },
     "system": {
-      "title": "<span class='brand-name'>Tidal Wrap</span> Subsistema y Productos",
+      "title": "<span class='brand-name'>Tidal Wrap</span> - Sub Productos del Sistema",
       "items": [{
-        "title": "PCS Underwater Primer",
-        "body": "Petrolatum-based primer for use on metal surfaces prior to wrapping with Anti corrosion Petro Tape.",
+        "title": "PCS Imprimante Acuático",
+        "body": "Hecho a base de Petrolato y Aceites, el imprimante es para mejorar la adhesión de la cinta además de desplazar oxigeno y humedad de la superficie a proteger.",
         "image": "pcs-primer.jpg"
       }, {
-        "title": "PCS Marine-Grade Petro Tape",
-        "body": "Synthetic adhesive fabric impregnated and coated with a material based on waxes and oils, covered with anti-bacterial vaseline-based compounds and inert fibers.",
+        "title": "PCS Cinta Petrolato de Grado-Marino",
+        "body": "Cinta de tela sintética adhesiva y recubierta de un material en base a ceras y aceites con un aditivo anti-bacterial para repeler los organismos marinos.",
         "image": "pcs-marine-grade-petro-tape.jpg"
       }, {
-        "title": "PCS Liner 6000 Series",
-        "body": "The PCS® 6000HD series consists of a proprietary polymer polyolefin, fully protected against UV degradation and oxidation (Guaranteed up to 30 years) with technically advanced stabilization package.",
+        "title": "Funda PCS Series 6000",
+        "body": "La funda PCS Series 6000, consiste en una chaqueta de polímero polyolefin, protegida totalmente contra rayos UV a la degradación y oxidación (Garantizado por 30+ anos) que cuenta con una técnica de estabilización avanzada.",
         "image": "pcs-liner-6000-series.jpg"
       }, {
-        "title": "PCS Smart Band",
-        "body": "A premium high strength composite polymer based Strap and Buckle system, very safe and easy to fit. It has high strength up to 2,551 kgf.",
+        "title": "Abrazadera Inteligente PCS",
+        "body": "Sistema de Correas y Hebillas hechas de un polímero altamente fuerte y resistente muy fácil y seguro de instalar evitando heridas o cortes de personal instalador. Tiene una resistencia de 2,551 kgf.",
         "image": "smart-band-installed.jpg",
         "imageInBody": "smart-band-thumb.jpg"
       }]
@@ -62,83 +63,83 @@
     "characteristics": {
       "title": "<span class='brand-name'>Tidal Wrap</span> Characteristics &amp; Advantages",
       "body": [
-        "Since its first introduction in 1929 petrolatum tapes have established an enviable record of performance and unparalleled asset protection in a number of environments."
+        "Desde su primera introducción en 1929, las Cintas Petrolato han establecido un record envidiable de performance y ha sido reconocido como un leader de sistema de corrosión para un numero alto de aplicaciones."
       ],
       "items": [
-        "Minimum surface preparation required",
-        "Can be applied under water",
-        "Tested by more than 75-year history of corrosion protection",
-        "Resistance to water, salts, alkalis and acids",
-        "Can be applied on new or corroded pilings",
-        "Mechanical covers are in one piece",
-        "High impact shock resistance for damage prevention",
-        "High capacity ultraviolet - 30+ years",
-        "Environmentally responsible and safe to use",
-        "Free of maintenance over the long-term"
+        "Preparación de superficie mínima requerida",
+        "Aplicado en zonas de chapoteo, inter-mareales e incluso bajo agua.",
+        "Probado por 75+ años de historia en la lucha contra corrosión",
+        "Resistente al agua, sales, álcalis y ácidos.",
+        "Puede ser aplicado en estructuras nuevas o en proceso de corrosión.",
+        "Las Fundas de protección mecánica son de una sola pieza",
+        "Alta resistencia al impacto y daño por mareas y olas.",
+        "Alta capacidad de protección UV – 30+ Anos",
+        "Responsable Medio-Ambiental, seguro y sano de usar.",
+        "Libre de mantenimiento por largo tiempo."
       ]
     },
     "installation": {
-      "title": "Instalación",
-      "body": "<span class='brand-name'>Tidal Wrap</span> is a very versatile and easy system to apply. It is virtually the <strong>only</strong> solution suitable for splashing zones, inter-tidals as well as underwater installations. The PCS Primer and Tapes will never dry, therefore, will remain soft and will not crack or allow oxygen and or water to the structure.",
+      "title": "Instalacion",
+      "body": "<span class='brand-name'>Tidal Wrap</span> es un sistema muy versatile y simple de instalar. Es considerado, virtualmente, la <strong>única solución</strong> disponible para la protección de las zonas de chapoteo, inter-mareales y bajo el agua. Los productos PCS de cinta e imprimante, no se llegaran a secar, permaneciendo siempre suave evitando que se seque y que existan grietas o superficies descascaradas, evitando el ingreso de oxigeno o humedad.",
       "hydro": {
         "imagesPath": "installation/hydro",
         "images": [{
-          "caption": "Initial State of Pilings",
+          "caption": "Condición Inicial del Pilote",
           "image": "1-initial.jpg"
         }, {
-          "caption": "Target the Splash Zone",
+          "caption": "Zona de Chapoteo",
           "image": "2-install-hydroblast-zone.jpg"
         }, {
-          "caption": "Hydroblast the Splash Zone",
+          "caption": "Hydro Blasting la Zona de Chapoteo",
           "image": "5-hydroblast-splash-zone.jpg"
         }, {
-          "caption": "Hydroblasting and/or Mechanical Cleaning",
+          "caption": "Hydro Blasting y Limpieza Mecánica",
           "image": "6-hydroblast-upper.jpg"
         }, {
-          "caption": "Install Primer",
+          "caption": "Instalando Imprimante",
           "image": "install-primer-pic5.jpg"
         }, {
-          "caption": "Install Tape",
+          "caption": "Instalando la Cinta",
           "image": "installation-pic6.jpg"
         }, {
-          "caption": "Install Tape",
+          "caption": "Instalando la Cinta",
           "image": "install-tape-2.jpg"
         }, {
-          "caption": "Installed Underwater",
+          "caption": "Instalando la Cinta Bajo Agua",
           "image": "install-tape-3.jpg"
         }, {
-          "caption": "Applying PCS Liner 6000",
+          "caption": "Aplicando la Funda 6000 Series",
           "image": "installation-pic9.jpg"
         }, {
-          "caption": "Installing PCS Liner 6000",
+          "caption": "Instalando la Funda 6000 Series",
           "image": "installation-pic10.jpg"
         }, {
-          "caption": "Finished Product",
+          "caption": "Protección Completa",
           "image": "install-liner.jpg"
         }, {
-          "caption": "Finished Product",
+          "caption": "Protección Completa",
           "image": "installation-12.jpg"
         }]
       }
     },
     "aboutPcs": {
       "items": [{
-        "title": "A Leading Manufacturer",
-        "body": "PCS is one of the leading manufacturers of anticorrosion tape systems petrolatum, exporting to many countries throughout the world."
+        "title": "Un Líder en Manufacturación",
+        "body": "PCS es uno de los fabricantes lideres de cintas y productos de petrolato en el mundo exportando a varios países internacionalmente."
       }, {
-        "title": "North American",
-        "body": "Located in Toronto, Canada PCS is one of the most efficient in their field and have the latest manufacturing equipment."
+        "title": "Norte Americano",
+        "body": "Localizado en Toronto-Canada, PCS es uno de las plantas más eficientes en su campo y esta además estratégicamente situado para despacho de órdenes a nivel internacional."
       }, {
-        "title": "Prevents Corrosion",
-        "body": "PCS products are designed to stop and prevent corrosion in pipes, valves, piles, fittings and flanges in the most extreme environments imaginable."
+        "title": "Protección de Corrosion",
+        "body": "Los productos PCS están diseñados para parar y prevenir la corrosión en tuberías y conexiones, pilotes, válvulas, bridas, etc. aun en los ambientes más extremos imaginables de corrosión."
       }, {
-        "title": "Various Applications",
-        "body": "PCS products are used successfully in a variety of applications in oil & gas, pulp & paper, municipal and wastewater industries and routine building maintenance."
+        "title": "Diversas Aplicaciones",
+        "body": "Los productos PCS son usados exitosamente en una variedad de industrias como marina, petróleo y gas, pulpa y papel, minería, municipalidades, etc."
       }]
     },
     "contact": {
-      "title": "Contact Key Marine",
-      "subTitle": "<span class='brand-name'>Tidal Wrap</span> is exclusively available from Key Marine Direct Sales Ltd.",
+      "title": "Contacte Key Marine",
+      "subTitle": "<span class='brand-name'>Tidal Wrap</span> es distribuido exclusivamente por Key Marine Direct Sales Ltd.",
       "websiteLabel": "Sitio Web",
       "emailLabel": "Email",
       "phoneLabel": "Teléfono",
